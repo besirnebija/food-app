@@ -18,7 +18,7 @@ export class CartService {
     this.cart.items.push(new CartItem(food))
       }
 
-      removeFromCart                                                                       (foodId: number): void{
+      removeFromCart(foodId: number): void{
         this.cart.items = this.cart.items.filter(item=> item.food.id != foodId)
       }
 

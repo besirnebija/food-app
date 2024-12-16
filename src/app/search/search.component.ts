@@ -15,7 +15,8 @@ export class SearchComponent implements OnInit{
     this.route.params.subscribe(params => {
       if(params['searchTerm'])
       this.searchTerm = params['searchTerm'];
-    })
+    })    
+    
   }
 
   search():void{

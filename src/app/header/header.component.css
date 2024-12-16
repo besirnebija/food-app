@@ -28,6 +28,7 @@ a.logo{
 nav ul{
     list-style-type: none;
     margin: 0;
+    display: flex;
 }
 
 nav ul li a{
